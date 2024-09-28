@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+body {
+	font-family: GeistVF;
+	min-height: 100vh;
+	color: var(--foreground);
+	background: var(--background);
+}
+
+.container {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: GeistVF;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../public/fonts/GeistVF.woff') format("woff");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: GeistMonoVF;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../public/fonts/GeistMonoVF.woff') format("woff");
+}
+
+.btn-reset {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
