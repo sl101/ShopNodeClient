@@ -12,6 +12,9 @@ body {
 	min-height: 100vh;
 	color: var(--foreground);
 	background: var(--background);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .container {

@@ -1,0 +1,26 @@
+{
+  "en": {
+    "header": {
+      "profile": "Profile",
+      "logout": "Logout"
+    },
+    "main_nav": {
+      "shop": "Shop",
+      "about": "About",
+      "contacts": "Contacts",
+      "gallery": "Gallery"
+    }
+  },
+  "de": {
+    "header": {
+      "profile": "Profil",
+      "logout": "Ausloggen"
+    },
+    "main_nav": {
+      "shop": "Geschäft",
+      "about": "Über uns",
+      "contacts": "Kontakte",
+      "gallery": "Galerie"
+    }
+  }
+}
